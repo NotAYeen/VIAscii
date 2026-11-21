@@ -2,9 +2,21 @@
 
 > Estudio de arte ASCII interactivo en tiempo real con procesamiento acelerado en el navegador, efectos dinámicos en vivo y exportación multiformato.
 
+<p align="center">
+  <a href="https://notayeen.github.io/VIAscii/">
+    <img src="https://img.shields.io/badge/%E2%96%B6%20Probar%20VIAscii%20en%20vivo-GitHub%20Pages-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Probar VIAscii en vivo" height="42" />
+  </a>
+</p>
+
+<p align="center">
+  👉 <strong><a href="https://notayeen.github.io/VIAscii/">https://notayeen.github.io/VIAscii/</a></strong>
+</p>
+
+---
+
 ## ✨ Características
 
-- **Entrada versátil:** Soporte para imágenes locales (PNG, JPG, WEBP, GIF), videos (MP4, WEBM), cámara web en vivo a 60 FPS y pegado directo desde el portapapeles (`Ctrl+V`).
+- **Entrada versátil:** Soporte para imágenes locales (PNG, JPG, WEBP, GIF), videos (MP4, WEBM), cámara web en vivo a 60 FPS con selector de giro (frontal/trasera) y pegado directo desde el portapapeles (`Ctrl+V`).
 - **Efectos dinámicos en vivo:**
   - Luz orbital 3D con reflejos en movimiento.
   - Ondulación fluida sobre la densidad de caracteres.
@@ -17,11 +29,14 @@
   - Matriz táctil Braille Unicode.
   - Bloques de píxeles (`░▒▓█`) y cubos Voxel 3D.
   - Tramado Halftone y algoritmos de dither (Floyd-Steinberg, Atkinson, Bayer).
+  - Paletas vintage listas (Ámbar, Cobalto, Matrix, GameBoy, Commodore 64).
 - **Exportación multiformato (100% Client-Side):**
   - **Video MP4 / WebM:** Clips programados automáticos o grabación libre en vivo.
   - **GIF animado en bucle:** Generación y descarga directa con control de duración y FPS.
   - **Imágenes fijas:** PNG, JPEG, WEBP en alta resolución (1x, 2x, 4x) y gráficos vectoriales SVG.
   - **Texto:** Archivo plano `.txt`, terminal ANSI `.ans` y página web `.html` con estilo integrado.
+  - **Web Share API:** Compatible con teléfonos para compartir directamente a redes sociales o galería.
+- **Mobile-First & PWA:** Totalmente adaptado para pantallas móviles y táctiles (pellizco para zoom, ajustes inferiores fijos e instalable como app en pantalla de inicio).
 - **Internacionalización:** Interfaz bilingüe completa (Español / Inglés).
 
 ## 🚀 Despliegue en GitHub Pages
